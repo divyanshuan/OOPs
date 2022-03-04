@@ -8,18 +8,8 @@ private:
     double ans;
 
 public:
-    double pow(double a, int b)
+    double pow(double a, int b = 2) // default value of b =2
     {
-        ans = 1;
-        for (int i = 0; i < b; i++)
-        {
-            ans = ans * a;
-        }
-        return ans;
-    }
-    double pow(double a, int b =2) // default value  
-    {
-        int b = 2;
         ans = 1;
         for (int i = 0; i < b; i++)
         {
