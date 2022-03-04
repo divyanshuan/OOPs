@@ -46,9 +46,8 @@ public:
         cin >> rate;
         intrest = (amount * rate * time) / 100;
         cout << "Total intrest=" << intrest << endl;
-        cout << "Total amount after intrest =" << endl;
         amount = intrest + amount;
-        cout << "Total amount = " << amount << endl;
+        cout << "Total amount after intrest ="<<amount  << endl;
     }
     void displayDetail()
     {
