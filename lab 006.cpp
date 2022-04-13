@@ -67,14 +67,23 @@ int main()
     str2.displayString();
 
     cout << "We compared the string " << endl; // comparing string
-    if (str1.equateString(str2))
+    if (str1.length() == str2.length())
     {
-        cout << "Strings are equal !!" << endl;
+        if (str1.equateString(str2))
+        {
+            cout << "Strings are equal !!" << endl;
+        }
+        else
+        {
+            cout << "Strings are not equal !!" << endl;
+        }
     }
     else
     {
         cout << "Strings are not equal !!" << endl;
     }
+    
+
     cout << "Adding First String to Second String" << endl;
     str1.addString(str2); // Adding string
     cout << endl;
