@@ -1,3 +1,5 @@
+/*write a class STRING that can use to store strings, add strings
+equate strings ,output string*/
 #include <iostream>
 using namespace std;
 const int MAX = 30;
@@ -82,7 +84,6 @@ int main()
     {
         cout << "Strings are not equal !!" << endl;
     }
-    
 
     cout << "Adding First String to Second String" << endl;
     str1.addString(str2); // Adding string

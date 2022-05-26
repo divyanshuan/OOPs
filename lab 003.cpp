@@ -1,4 +1,5 @@
 /*Program to find out power and also have default value*/
+
 #include <iostream>
 using namespace std;
 

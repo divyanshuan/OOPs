@@ -1,15 +1,15 @@
-//Write program to show binary operator
+/*Write program to overload binary operator*/
 #include <iostream>
 using namespace std;
 
 class complex
 {
-    //declare data member or variables 
+    // declare data member or variables
 private:
     int real, imag;
 
 public:
-    // create a member function to take input  
+    // create a member function to take input
     void getvalue()
     {
         cout << "\nEnter the value of real number:";
@@ -17,11 +17,11 @@ public:
         cout << "\nEnter the value of imaginary number:";
         cin >> imag;
     }
-    complex operator+(complex obj) // Operator overloading by binary operator(+)  
+    complex operator+(complex obj) // Operator overloading by binary operator(+)
     {
-        // create an object  
+        // create an object
         complex temp;
-        // assign values to object 
+        // assign values to object
         temp.real = real + obj.real;
         temp.imag = imag + obj.imag;
         return (temp);
@@ -30,7 +30,7 @@ public:
     {
         // create an object
         complex temp;
-        // assign values to object 
+        // assign values to object
         temp.real = real - obj.real;
         temp.imag = imag - obj.imag;
         return (temp);
@@ -49,13 +49,13 @@ int main()
 {
     complex c1, c2, c3, c4; // here we created object of class complex i.e c1,c2,c3 and c4
 
-    // accepting the values 
+    // accepting the values
     c1.getvalue();
     c2.getvalue();
 
-    // add the objects 
+    // add the objects
     c3 = c1 + c2;
-    // subtract the objects 
+    // subtract the objects
     c4 = c1 - c2;
 
     cout << "\nResults of addition and subtarction :\n";

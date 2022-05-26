@@ -1,3 +1,5 @@
+/* Create two classes DM and DB. DM stores the distance in meter and centimeters and DB
+stores the distance in feet and inches. Write a program to add object of DM with the object of DB class.*/
 #include <iostream>
 using namespace std;
 class DB;
@@ -7,15 +9,15 @@ class DM
     float meter, centi;
 
 public:
-    void getdata()   
+    void getdata()
     {
-        //Function for getting input  from user
+        // Function for getting input  from user
         cout << "\nEnter the distance in(meter-centimeter):";
         cin >> meter >> centi;
     }
     void display()
     {
-        //Function for printing output
+        // Function for printing output
         cout << "\nThe distance is:";
         cout << meter << " meters and " << centi << " centimeter";
     }
@@ -29,13 +31,13 @@ class DB
 public:
     void getdata()
     {
-        //Function for getting input  from user
+        // Function for getting input  from user
         cout << "\nEnter the distance in(feet-inch):";
         cin >> feet >> inch;
     }
     void display()
     {
-        //Function for displaying the result 
+        // Function for displaying the result
         cout << "\nThe distance is:";
         cout << feet << " feet and " << inch << " inch";
     }

@@ -1,3 +1,6 @@
+/*Write a class account that represent your bank account then use use it. 
+The claas should allow you to deposite money,withdraw money ,calculate intrest , send you a 
+massage if you have insufficient balance */
 #include <iostream>
 using namespace std;
 class Account

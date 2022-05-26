@@ -17,7 +17,7 @@ public:
         }
         return ans;
     }
-    double pow(double a)   
+    double pow(double a)
     {
         int b = 2;
         ans = 1;
@@ -35,6 +35,7 @@ public:
 int main(int argc, char const *argv[])
 {
     power math;
+
     double x, z;
     int y;
     cout << "enter the base number" << endl;
@@ -42,7 +43,7 @@ int main(int argc, char const *argv[])
     cout << "enter the power " << endl;
     cin >> y;
     z = math.pow(x, y);
-    z = math.pow(x); // Default argument is replaced by overloading 
+    z = math.pow(x); // Default argument is replaced by overloading
     math.display();
 
     return 0;

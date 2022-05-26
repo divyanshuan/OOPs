@@ -1,4 +1,4 @@
-// Write program to show unary operator
+/*Write program to overload unary operator*/
 #include <iostream>
 using namespace std;
 

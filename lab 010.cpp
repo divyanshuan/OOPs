@@ -1,3 +1,9 @@
+/* Program to demonstrate the concept of
+(a) Default constructor.
+(b) Parameterized constructor.
+(c) Copy constructor.
+(d) Constructor overloading.
+*/
 #include <iostream>
 using namespace std;
 
