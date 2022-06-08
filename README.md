@@ -80,6 +80,39 @@
         array.
       </li>
     </ol>
-  </p>
+</p>
 
-  <p align="center"> :heart: Divyanshu :heart:</p>
+# Sessional :hourglass:
+
+## Sessional 1 :memo:
+
+<p>
+<ol>
+<li>
+Create a class TIME to store only minites (integer) and provide two ways to create an object that is given by giving 
+<ul>
+<li>Hours and Minutes</li></ul>
+<li>only Minutes</li></ul>
+</li>
+<ol>
+</p>
+
+## Sessional 2 :memo:
+
+<p>
+<ol>
+<li>
+Show how to overload * operator which creates the copies of the given string:
+<p > <b> Ex: "CUH"*3 gives "CUHCUHCUH</b> </p>
+<ul>
+<li>Hours and Minutes</li>
+<li>only Minutes</li>
+</ul>
+<li>Create 2 Classes TIME & TIME2 where TIMEl stores hours & minutes and TIME2 stores only
+minutes. How to save one time object into another using user-detined to user-detined type
+conversion. Ex: t1 = 12 where t1 & 12 are TIME] & TIME2 objects respectively.</li>
+
+<ol>
+</p>
+
+<p align="center"> :heart: Divyanshu :heart:</p>
