@@ -95,7 +95,7 @@ Create a class TIME to store only minites (integer) and provide two ways to crea
 <li>Hours and Minutes</li>
 <li>only Minutes</li></ul>
 </li>
-<ol>
+</ol>
 </p>
 <br/>
 
