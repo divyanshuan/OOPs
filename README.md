@@ -89,7 +89,7 @@
 <p>
 <ol>
 <li>
-Create a class TIME to store only minites (integer) and provide two ways to create an object that is given by giving 
+Create a class TIME to store only minutes (integer) and provide two ways to create an object that is given by giving 
 </li>
 <ul>
 <li>Hours and Minutes</li>
@@ -98,8 +98,6 @@ Create a class TIME to store only minites (integer) and provide two ways to crea
 </ol>
 </p>
 <br/>
-
-
 
 ## Sessional 2 :memo:
 
@@ -111,7 +109,8 @@ Show how to overload * operator which creates the copies of the given string:
  </li>
 <li>Create 2 Classes TIME & TIME2 where TIMEl stores hours & minutes and TIME2 stores only
 minutes. How to save one time object into another using user-detined to user-detined type
-conversion. Ex: t1 = 12 where t1 & 12 are TIME] & TIME2 objects respectively.</li>
+conversion. <br/>
+<span><b>Ex: t1 = 12 where t1 & 12 are TIME] & TIME2 objects respectively.</b></span></li>
 <ol>
 </p>
 
