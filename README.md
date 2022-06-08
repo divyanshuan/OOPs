@@ -92,11 +92,13 @@
 Create a class TIME to store only minites (integer) and provide two ways to create an object that is given by giving 
 </li>
 <ul>
-<li>Hours and Minutes</li></ul>
+<li>Hours and Minutes</li>
 <li>only Minutes</li></ul>
 </li>
 <ol>
 </p>
+<br/>
+
 
 
 ## Sessional 2 :memo:
